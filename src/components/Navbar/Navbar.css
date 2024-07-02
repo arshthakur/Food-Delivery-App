@@ -6,7 +6,7 @@
 }
 
 .navbar .logo{
-height: 50px;
+height: 90px;
 width: 150px;
 background: none;
 }
@@ -17,4 +17,43 @@ background: none;
   gap: 20px;
   color: #49557e;
   font-size: 18px;
+}
+
+.navbar-right{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar button{
+  background: transparent;
+  font-size: 15px;
+  color:rgb(109, 230, 109);
+  border: 1px solid;
+  padding: 8px 25px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.navbar button:hover{
+  background-color: #fff4f2;
+  transition: 0.3s;
+}
+.navbar .active{
+  padding-bottom: 2px;
+  border-bottom: 2px solid #49557e;
+}
+
+.navbar li {
+  cursor:pointer;
+}
+
+.navbar-search-icon{
+  position: relative;
+}
+
+.navbar-search-icon .dot{
+  position: absolute;
+  min-width: 10px;
+  min-height: 10px;
 }
