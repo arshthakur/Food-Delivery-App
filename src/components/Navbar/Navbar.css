@@ -51,9 +51,6 @@ background: none;
 .navbar-search-icon{
   position: relative;
 }
-.navbar-search-icon .pack_icon{
-color: white;
-}
 .navbar-search-icon .dot{
   position: absolute;
   min-width: 10px;
@@ -62,5 +59,14 @@ color: white;
   background-color: tomato;
   border-radius: 5px;
   top: -8px;
+  right: -8px;
+}
+
+.navbar li .new{
+  position:absolute;
+  min-width: 10px;
+  min-height: 10px;
+  color: tomato;
+  top: -15px;
   right: -8px;
 }

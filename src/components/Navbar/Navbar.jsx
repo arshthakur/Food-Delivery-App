@@ -12,6 +12,9 @@ const Navbar=()=>{
 <ul className='navbar-menu'>
   <li onClick={()=>setMenu("home")} className={menu === "home"?"active":""}>home</li>
   <li onClick={()=>setMenu("menu")} className={menu === "menu"? "active":""}>menu</li>
+  <li onClick={()=>setMenu("offers")} className={menu === "offers"? "active":""}>offers%
+    <div className='new'>new</div>
+  </li>
   <li onClick={()=>setMenu("mobile-app")} className={menu === "mobile-app"?"active":""}>mobile-app</li>
   <li onClick={()=>setMenu("contact-us")} className={menu === "contact-us"?"active":""}>contact us</li>
 </ul>
