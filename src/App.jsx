@@ -3,10 +3,13 @@ import Navbar from './components/Navbar/Navbar.jsx';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home/Home'
 import Cart from './pages/Cart/Cart'
+import Footer from './components/Footer/Footer.jsx'
+import AppStore from './components/AppStore/AppStore.jsx';
 import PlaceOrder from './pages/Placeorder/PlaceOrder.jsx';
 
 const App =()=>{
   return(
+    <>
 <div className='app'>
 <Navbar></Navbar>
 <Routes>
@@ -15,6 +18,9 @@ const App =()=>{
  < Route path='/order' element={<PlaceOrder/>}/>
 </Routes>
 </div>
+<AppStore></AppStore>
+<Footer></Footer>
+</>
   );
 }
 

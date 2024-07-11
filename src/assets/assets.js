@@ -5,6 +5,8 @@ import logo2 from './logo2.png'
 import header_img from './header_img.png'
 import header4 from './header4.png'
 import header0 from './header0.jpg'
+import header5 from './header5.jpg'
+import header6 from './header6.jpg'
 import header2 from './header2.png'
 import search_icon from './search_icon.png'
 import menu_1 from './menu_1.png'
@@ -76,6 +78,8 @@ export const assets = {
     header2,
     header0,
     header4,
+    header5,
+    header6,
     search_icon,
     rating_starts,
     add_icon_green,
