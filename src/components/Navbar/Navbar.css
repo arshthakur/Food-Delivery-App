@@ -68,14 +68,6 @@ margin-left: 60px;
   right: -8px;
 }
 
-.navbar li .new{
-  position:absolute;
-  min-width: 10px;
-  min-height: 10px;
-  color: tomato;
-  top: -15px;
-  right: -8px;
-}
 
 @media(max-width:1050px){
   .navbar .logo{
