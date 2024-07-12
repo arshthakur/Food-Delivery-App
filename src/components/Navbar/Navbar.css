@@ -1,16 +1,17 @@
 .navbar{
-  padding: 20px,0;
+  padding: 15px,0;
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
-
+  box-shadow: 0px 0px 10px #00000015 ;
 }
 
 .navbar .logo{
-height: 100px;
-width: 160px;
+height: 90px;
+width: 150px;
 background: none;
+margin-left: 60px;
 }
 
 .navbar-menu{
@@ -25,6 +26,7 @@ background: none;
   display: flex;
   align-items: center;
   gap: 40px;
+  margin-right: 60px;
 }
 
 .navbar button{
@@ -73,4 +75,54 @@ background: none;
   color: tomato;
   top: -15px;
   right: -8px;
+}
+
+@media(max-width:1050px){
+  .navbar .logo{
+    width: 140px;
+  }
+
+  .navbar-menu{
+    gap: 20px;
+    font-size: 17px;
+  }
+  .navbar-right{
+    gap: 30px;
+  }
+
+  .navbar-right img{
+    width: 22px;
+  }
+
+.navbar-right button{
+  padding: 8px 25px;
+}
+}
+
+@media(max-width:900px){
+  .navbar .logo{
+    width: 120px;
+  }
+
+  .navbar-menu{
+    gap: 15px;
+    font-size: 16px;
+  }
+  .navbar-right{
+    gap: 20px;
+  }
+
+  .navbar-right img{
+    width: 20px;
+  }
+
+.navbar-right button{
+  padding: 7px 20px;
+  font-size: 15px;
+}
+}
+@media(max-width:750px){
+ .navbar-menu{
+   display: none;
+  }
 }

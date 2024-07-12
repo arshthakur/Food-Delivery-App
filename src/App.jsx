@@ -10,8 +10,8 @@ import PlaceOrder from './pages/Placeorder/PlaceOrder.jsx';
 const App =()=>{
   return(
     <>
-<div className='app'>
 <Navbar></Navbar>
+<div className='app'>
 <Routes>
  < Route path='/' element={<Home/>}/>
  < Route path='/cart' element={<Cart/>}/>

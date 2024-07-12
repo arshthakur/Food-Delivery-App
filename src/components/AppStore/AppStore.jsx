@@ -5,7 +5,7 @@ import { assets } from '../../assets/assets';
 const AppStore = ()=>{
   return(
     <>
-    <div className='app-store'>
+    <div className='app-store' id='app-store'>
 
       <div className="para">
       <h3>For better experience, download <br></br>the Nibble app now</h3>
