@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar.jsx';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home/Home'
 import Cart from './pages/Cart/Cart'
+// import Offers from './pages/Offers/offers';
 import Footer from './components/Footer/Footer.jsx'
 import AppStore from './components/AppStore/AppStore.jsx';
 import PlaceOrder from './pages/Placeorder/PlaceOrder.jsx';
@@ -21,6 +22,7 @@ const[showLogin, setShowLogin] = useState(false)
  < Route path='/' element={<Home/>}/>
  < Route path='/cart' element={<Cart/>}/>
  < Route path='/order' element={<PlaceOrder/>}/>
+ {/* < Route path='/offers' element={<Offers/>}/> */}
 </Routes>
 </div>
 <AppStore></AppStore>

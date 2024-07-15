@@ -16,7 +16,7 @@ const[currState, setCurrState] = useState("Login")
     <div className="login-popup-inputs">
       {currState==="Login"?<></>: <input type='text' placeholder='Enter your Name' required />}
      
-      <input type='text' placeholder='Enter your Email' required />
+      <input type='email' placeholder='Enter your Email' required />
      <input type="text" placeholder='Enter your Password' />
     </div>
     <button>{currState==="Sign Up"?"Create Account":"Login"}</button>
