@@ -6,9 +6,9 @@ Currently in development, our food delivery application aims to revolutionize th
 
 ## Screenshots
 
-### App Home
+### Home
 
-![App Home](<Screenshots/Screenshot(45).png>)
+![App Home](</src/Screenshots/Screenshot(45).png>)
 
 ## Features
 
