@@ -8,7 +8,7 @@ Currently in development, our food delivery application aims to revolutionize th
 
 ### Home
 
-![App Home](</assets/Screenshots/Screenshot(45).png>)
+![App Home](<assets/Screenshots/Screenshot(45).png>)
 
 ## Features
 
