@@ -18,7 +18,10 @@ Currently in development, our food delivery application aims to revolutionize th
 
 ![App footer](src/assets/Screenshots/footer.png)
 
+### login & sign up
+
 ![login page](src/assets/Screenshots/login.png)
+![login page](src/assets/Screenshots/signup.png)
 
 ### cart items
 
