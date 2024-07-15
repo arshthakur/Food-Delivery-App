@@ -6,9 +6,31 @@ Currently in development, our food delivery application aims to revolutionize th
 
 ## Screenshots
 
-### Home
+### home
 
-![App Home](<src/assets/Screenshots/Screenshot(45).png>)
+![App Home](src/assets/Screenshots/home.png)
+
+### menu
+
+![App Menu](src/assets/Screenshots/menu.png)
+
+### footer
+
+![App footer](src/assets/Screenshots/footer.png)
+
+![login page](src/assets/Screenshots/login.png)
+
+### cart items
+
+![login page](src/assets/Screenshots/cart.png)
+
+### cart total
+
+![login page](src/assets/Screenshots/cartTotal.png)
+
+### address and cart total
+
+![login page](src/assets/Screenshots/address.png)
 
 ## Features
 
